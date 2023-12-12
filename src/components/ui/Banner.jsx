@@ -3,6 +3,7 @@ import SocialLinl from "../shared/SocialLinl";
 import AnimationText from "./AnimationText";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 const Banner = () => {
   Aos.init({
     disable: false,
@@ -63,14 +64,20 @@ const Banner = () => {
           <SocialLinl></SocialLinl>
         </div>
         <div className="flex  items-center gap-8 pb-10 pt-5">
-          <div className="flex items-center gap-2 border px-4 py-2 rounded-full border-purple-600 bg-purple-600">
-            <button>About me</button>
+          <Link
+            to={"/contact"}
+            className="flex items-center gap-2 border px-4 py-2 rounded-full border-purple-600 bg-purple-600"
+          >
+            <button>Contact me</button>
             <FaArrowTrendUp />
-          </div>
-          <div className="flex items-center gap-2 border px-4 py-2 rounded-full border-purple-600 hover:bg-purple-600 ease-linear duration-1000 text-purple-600 hover:text-white">
+          </Link>
+          <Link
+            to={"/site"}
+            className="flex items-center gap-2 border px-4 py-2 rounded-full border-purple-600 hover:bg-purple-600 ease-linear duration-1000 text-purple-600 hover:text-white"
+          >
             <button>Explor...</button>
             <FaLocationArrow className="animate-bounce mt-2" />
-          </div>
+          </Link>
         </div>
       </div>
       <div className=" md:mt-10 border rounded-full md:px-5  pt-10 md:pt-5 2xl:pt-10 overflow-hidden border-purple-600 shadow-xl shadow-purple-500 md:mr-4 lg:mr-0 z-20 bg-transparent ">

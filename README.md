@@ -2,7 +2,7 @@
 
 ## Live link : https://sensational-begonia-6f12ab.netlify.app/
 
-## use Components :
+## use package :
 
 - @react-pdf-viewer/core
 - @react-pdf-viewer/pdfjs-dist-signature

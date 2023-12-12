@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import DownlodCV from "../shared/DownlodCV";
 
 const Navber = () => {
   return (
@@ -55,8 +56,8 @@ const Navber = () => {
         </NavLink>
       </div>
       <div>
-        <p className="px-6 py-2 rounded-md border border-purple-600 shadow-md shadow-purple-500">
-          Downlode CV
+        <p className="px-6 py-2 text-xs rounded-md border border-purple-600 shadow-md shadow-purple-500 hover:bg-purple-500 hover:text-yellow-400 ease-linear duration-500">
+          <DownlodCV />
         </p>
       </div>
     </div>

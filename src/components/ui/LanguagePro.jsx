@@ -1,3 +1,5 @@
+import ProgressBar from "@ramonak/react-progress-bar";
+
 const LanguagePro = () => {
   return (
     <div className="px-2 xl:px-5 py-10">
@@ -18,7 +20,8 @@ const LanguagePro = () => {
           <p>90%</p>
         </div>
         <progress
-          className="progress progress-warning "
+          className="progress progress-warning text-purple-600"
+          color="#f1f1f1"
           value="90"
           max="100"
         ></progress>

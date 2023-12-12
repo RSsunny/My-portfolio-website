@@ -6,12 +6,12 @@ const Sidebar = () => {
   return (
     <div className="">
       {/* avater */}
-      <div className="pb-10 rounded-3xl border border-purple-800 shadow-purple-400 shadow-md   ">
+      <div className="pb-10 rounded-xl border border-purple-800 shadow-purple-400 shadow-md   ">
         <div className="avatar p-5 w-full mt-10">
           <div className="w-36 text-center  mx-auto rounded-full ">
             <img
-              className=" "
-              src="https://i.ibb.co/8NNtNz8/367437869-1452948585483278-4922338124868821993-n.jpg"
+              className=""
+              src="https://i.ibb.co/jzJXLFH/367437869-1452948585483278-4922338124868821993-n-removebg-preview.png"
             />
           </div>
         </div>
